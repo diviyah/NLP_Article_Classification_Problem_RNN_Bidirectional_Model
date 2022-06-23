@@ -8,6 +8,9 @@
 
 # NLP_Article_Classification_Problem_RNN_Bidirectional_Model
  Categorized news articles into 5 categories ( Sport, Tech, Business, Entertainment and  Politics) by using Recurrent Neural Network method to develop the model.
+ 
+## Data Credential
+Data is obtained from https://github.com/susanli2016/PyCon-Canada-2019-NLP-Tutorial
 
 ## PROBLEM STATEMENT
 ### Provided text documents that has 5 categories, can we categorize unseen in articles into 5 categories as well?
