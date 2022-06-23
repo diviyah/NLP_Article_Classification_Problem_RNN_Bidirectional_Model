@@ -17,6 +17,7 @@
         - There are only 2 variables namely text(features) and category (target).
         
  ![plt](https://user-images.githubusercontent.com/105897390/175362626-f4c2d6c1-81a2-4c99-ab17-b299b1fc8270.png)
+ 
 *The bar chart of the data*
 
 ###     2. Do we have missing values?
@@ -45,9 +46,11 @@
 Attached below are two images sniped from launched TensorBoard
 
 ![tensorboard_alot](https://user-images.githubusercontent.com/105897390/175363330-9f224053-0ee2-43ce-abe5-cb32c40d3ecb.png)
+
 *The multiple line graphs is one of the indication that we had to redevelop the model multiple times due to its unstability and that model often overfits. Early callbacks didnt help to increase the accuracy too.*
 
 ![tensorboard_final](https://user-images.githubusercontent.com/105897390/175363829-d22c54d8-8140-472d-9d02-1b7cdd6a623f.png)
+
 *This is the model chosen that doesnt overfits and reached better accuracy than the others.*
 
 
@@ -58,7 +61,7 @@ Attached below are two images sniped from launched TensorBoard
 ![loss_0 75](https://user-images.githubusercontent.com/105897390/175364058-120a355c-a5eb-452a-95cd-bc8b014aa446.png)
 
 
-*The last 2 plots are the plots of accuracy and loss value of both training and test dataset against epoch set for the RNN model. 
+*The last 2 plots are the plots of accuracy and loss value of both training and test dataset against epoch set for the RNN model.*
 
 
 ![model_eval_0 75](https://user-images.githubusercontent.com/105897390/175364244-6c656951-01d8-486a-a631-0ee7f33c55d0.png)
@@ -67,4 +70,4 @@ Attached below are two images sniped from launched TensorBoard
 
 ![model](https://user-images.githubusercontent.com/105897390/175364512-6bfeea7e-e160-43d2-b1a2-c5be6f72657b.png)
 
-*Last but not least, the image depicts out model's architecture."
+*Last but not least, the image depicts out model's architecture.*
